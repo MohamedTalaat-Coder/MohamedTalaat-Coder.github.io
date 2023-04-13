@@ -1,0 +1,49 @@
+:root {
+    --body-color : #E4DFDA;
+    --violet-color: #731DD8;
+    --light-blue-color: #48A9A6;
+    --yellow-color: #D4B483;
+    --pink-color: #C1666B;
+}
+
+* {
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+img {
+    cursor: pointer;
+    width: 50px;
+}
+
+ul li a {
+    background-color: var(--pink-color);
+    padding: 4px 8px 4px 8px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--body-color);
+    margin-left: 14px;
+    
+}
